@@ -1,0 +1,28 @@
+{
+  "name": "pinfall",
+  "version": "0.0.0",
+  "description": "Simple sports-entertainment prediction app to practice using angular, bootstrap, and gulp.",
+  "main": "app/index.html",
+  "start": "gulp",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandontate/pinfall/"
+  },
+  "author": "Brandon Tate",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "~3.8.11",
+    "gulp-load-plugins": "~0.8.0",
+    "gulp-concat": "~2.5.2",
+    "gulp-rename": "~1.2.0",
+    "gulp-uglify": "~1.1.0",
+    "browser-sync": "~2.2.1",
+    "gulp-ruby-sass": "~1.0.0-alpha.3"
+  }
+}
